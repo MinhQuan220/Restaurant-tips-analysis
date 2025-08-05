@@ -37,6 +37,9 @@ df.info()
 
 #### 2.1.3 Basic descriptive statistics
 Descriptive statistics (`df.describe()`) were generated for the numerical columns (`id`, `total_bill`, `tip`, `size`) to understand their central tendency, dispersion, and range.
+```Python
+df.describe()
+```
 
 ## 3. The main goals
 The main goals of this analysis were to investigate how different factors influence the tip amount. Specifically, the project explored the impact of:
@@ -45,17 +48,8 @@ The main goals of this analysis were to investigate how different factors influe
 *   Gender (Males vs. Females)
 *   Day of the week (Weekdays vs. Weekends)
 *   Time of day (Lunch vs. Dinner)
-
-## 4. Results
-
-*   Smoking status (Smokers vs. Non-smokers)
-  ![image](<img width="839" height="275" alt="{F531A22C-7662-4697-98B3-796D493257ED}" src="https://github.com/user-attachments/assets/528b5355-1fd4-475d-896a-7de57dc7ae89" />)
-
-*   Gender (Males vs. Females)
-*   Day of the week (Weekdays vs. Weekends)
-*   Time of day (Lunch vs. Dinner)
   
-## 5.Conclusions
+## 4.Conclusions
 The analysis involved separating the data based on the influencing factors, comparing the measures of central tendency (min, max, mean, median) for the tip amounts in each group, and visualizing the tip distributions using histograms with median lines for comparison.
 
 Key findings include:
